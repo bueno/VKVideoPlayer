@@ -1303,6 +1303,7 @@ typedef enum {
     case UIInterfaceOrientationPortraitUpsideDown:
       return 180;
       break;
+    default: return 0; break;
   }
 }
 
